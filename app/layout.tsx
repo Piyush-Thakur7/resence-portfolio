@@ -4,14 +4,17 @@ import { FOUNDER_INFO } from '@/data/portfolio-data';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.resence.in'),
-  title: 'Piyush Singh — Founder & CEO of Resence | AI Systems Architect',
-  description: 'Official portfolio and company hub of Piyush Singh (Piyush Thakur), Founder & CEO of Resence. Creator of Resence AI, WellBridge AI, RazorAgent MCP, and Google Student Ambassador (GSA \'26).',
+  title: 'Resence — Frontier AI & Agentic Ecosystem',
+  description: 'Resence is an independent AI technology laboratory engineering multi-model intelligence hubs, multimodal medical demystifiers, and autonomous Model Context Protocol (MCP) commerce protocols.',
   keywords: [
-    'Piyush Singh',
-    'Piyush Thakur',
-    'Founder of Resence',
     'Resence',
     'Resence AI',
+    'Resence Ecosystem',
+    'Founder of Resence',
+    'Founder of ServeMATE',
+    'Founder of WellBridge AI',
+    'Piyush Singh',
+    'Piyush Thakur',
     'WellBridge AI',
     'RazorAgent',
     'ServeMATE',
@@ -24,17 +27,17 @@ export const metadata: Metadata = {
   creator: 'Piyush Singh',
   publisher: 'Resence',
   openGraph: {
-    type: 'profile',
+    type: 'website',
     locale: 'en_US',
     url: 'https://www.resence.in',
-    title: 'Piyush Singh — Founder & CEO of Resence',
-    description: 'Founder of Resence, AI Systems Architect, Google Student Ambassador (GSA \'26), and builder of next-generation AI platforms.',
+    title: 'Resence — Frontier AI & Agentic Ecosystem',
+    description: 'The official ecosystem hub for Resence AI, WellBridge AI, RazorAgent MCP, and ServeMATE.',
     siteName: 'Resence',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Piyush Singh — Founder & CEO of Resence',
-    description: 'Founder of Resence, AI Systems Architect, Google Student Ambassador (GSA \'26).',
+    title: 'Resence — Frontier AI & Agentic Ecosystem',
+    description: 'The official ecosystem hub for Resence AI, WellBridge AI, RazorAgent MCP, and ServeMATE.',
     creator: '@PiyushSingh',
   },
   robots: {
@@ -178,6 +181,30 @@ export default function RootLayout({
         acceptedAnswer: {
           '@type': 'Answer',
           text: 'The Resence ecosystem includes Resence AI (ai.resence.in), WellBridge AI (wellbridgeai.resence.in), RazorAgent MCP (razoragent.resence.in), ServeMATE (servemate.resence.in), Resence Fitness (fitness.resence.in), and Anytime Converter (anytimeconverter.resence.in).'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Who is the founder of ServeMATE?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Piyush Singh (Piyush Thakur) is the founder and architect of ServeMATE (servemate.resence.in), a gamified social impact and NGO donation platform developed under the Resence ecosystem.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Who is the founder of WellBridge AI?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Piyush Singh is the founder and creator of WellBridge AI (wellbridgeai.resence.in), a multimodal medical report demystifier built for the Google Cloud Gen AI Academy.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Who created RazorAgent MCP?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Piyush Singh created and published RazorAgent MCP (razoragent.resence.in, published on NPM as razoragent), an autonomous payment protocol for AI agents.'
         }
       }
     ]
