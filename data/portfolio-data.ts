@@ -116,7 +116,7 @@ export const RESENCE_PROJECTS: Project[] = [
     techStack: ['TypeScript', 'React', 'Tailwind CSS', 'Local State Storage'],
     githubUrl: 'https://github.com/Piyush-Thakur7/ResenceFitness',
     badge: 'Live Prototype',
-    imageUrl: '/images/hero-mesh.jpg'
+    imageUrl: '/images/fitness-preview.jpg'
   },
   {
     id: 'anytime-converter',
@@ -129,7 +129,7 @@ export const RESENCE_PROJECTS: Project[] = [
     techStack: ['Python', 'FastAPI WebSockets', 'PyTorch BiGRU', 'MediaPipe', 'JavaScript'],
     githubUrl: 'https://github.com/Piyush-Thakur7/miniproject',
     badge: 'CV & ML Research',
-    imageUrl: '/images/hero-mesh.jpg'
+    imageUrl: '/images/anytimeconverter-preview.jpg'
   }
 ];
 

@@ -74,8 +74,8 @@ export function HeroSection({ onOpenFounderModal }: HeroSectionProps) {
           <div className="relative rounded-2xl overflow-hidden bg-slate-950 border border-white/10 aspect-[16/9] sm:aspect-[21/9]">
             <img
               src="/images/hero-mesh.jpg"
-              alt="Resence Autonomous AI Architecture Topology"
-              className="w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-700 opacity-90 group-hover:opacity-100"
+              alt="Resence AI Multi-Model Intelligence Hub Interface (ai.resence.in)"
+              className="w-full h-full object-cover object-top group-hover:scale-[1.02] transition-transform duration-700 opacity-95 group-hover:opacity-100"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#070a12] via-transparent to-transparent opacity-80" />
             

@@ -69,7 +69,7 @@ export function EcosystemShowcase() {
                   <img
                     src={project.imageUrl}
                     alt={`${project.title} Preview`}
-                    className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
+                    className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500 opacity-90 group-hover:opacity-100"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#090d18] via-transparent to-transparent" />
                   
