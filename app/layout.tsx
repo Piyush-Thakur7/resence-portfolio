@@ -54,6 +54,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://www.resence.in',
   },
+  icons: {
+    icon: '/images/logos/logo-option-1.jpg',
+    shortcut: '/images/logos/logo-option-1.jpg',
+    apple: '/images/logos/logo-option-1.jpg',
+  },
 };
 
 export default function RootLayout({

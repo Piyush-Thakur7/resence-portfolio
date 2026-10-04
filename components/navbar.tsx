@@ -28,8 +28,12 @@ export function Navbar({ onOpenFounderModal }: NavbarProps) {
         
         {/* Brand Logo & Founder Label */}
         <a href="#hero" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-white font-bold text-lg shadow-lg shadow-cyan-500/25 group-hover:scale-105 transition-transform">
-            R
+          <div className="w-10 h-10 rounded-2xl overflow-hidden border border-cyan-500/30 shadow-lg shadow-cyan-500/20 group-hover:scale-105 transition-transform bg-slate-950 flex items-center justify-center p-0.5">
+            <img
+              src="/images/logos/logo-option-1.jpg"
+              alt="Resence Logo"
+              className="w-full h-full object-cover rounded-xl"
+            />
           </div>
           <div>
             <div className="flex items-center gap-2">

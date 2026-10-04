@@ -18,8 +18,12 @@ export function Footer() {
           {/* Brand Col */}
           <div className="md:col-span-2 space-y-4">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-xl bg-gradient-to-tr from-cyan-500 to-indigo-600 flex items-center justify-center text-white font-bold shadow-md shadow-cyan-500/20">
-                R
+              <div className="w-8 h-8 rounded-xl overflow-hidden border border-cyan-500/30 shadow-md shadow-cyan-500/20 bg-slate-950 p-0.5">
+                <img
+                  src="/images/logos/logo-option-1.jpg"
+                  alt="Resence Logo"
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
               <span className="text-white font-bold text-base tracking-tight">Resence</span>
             </div>
